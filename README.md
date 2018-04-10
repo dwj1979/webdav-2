@@ -11,11 +11,14 @@ like [Nginx][nginx] or [Caddy][caddy] to handle those aspects.
 
 ## Installing the App
 
-First you have to [install Go.][go]
+1. First you have to [install Go.][go]
 
 [go]: https://golang.org/doc/install
 
-Then you can run `go install github.com/edbedbe/webdav`
+3. Run `go get github.com/edbedbe/webdav` to download
+the latest source.
+
+2. Run `go install github.com/edbedbe/webdav`
 to install the `webdav` command.
 
 ## How to Use It
