@@ -25,4 +25,9 @@ There are two optional arguments.
 1. `-port [8080]`: the port to serve on at localhost
 2. `-dir [.]`: the directory to serve over WebDAV
 
+For example:
+
+```
+$ webdav -port 9000 -dir /tmp/webdav
+```
 
